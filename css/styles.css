@@ -1,0 +1,196 @@
+:root {
+  --accent-color: #212121;
+  --accent-font: "Roboto", sans-serif;
+  --hover-color: #2196F3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+/*============HEADER=========*/
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192; 
+  letter-spacing: 0.03em;
+  color: #2196F3;
+  
+}
+
+
+.logo-second-part {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192; 
+  letter-spacing: 0.03em; 
+  color: #000000; 
+}
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+.header-mail-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color:  #757575;
+}
+
+.header-tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.header-mail-link:hover,
+.header-mail-link:focus,
+.header-tel-link:hover,
+.header-tel-link:focus,
+.navigation-list-link:hover,
+.navigation-list-link:focus  {
+color: #2196F3;  
+}
+
+
+/*============END HEADER=========*/
+
+
+/*<===========HERO===========>*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--accent-color);
+  /*color: #FFFFFF;*/ 
+}
+
+.modal-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 875;
+  color: #ffffff;
+}
+
+.hero-dark-theme {
+  background: #2F303A; 
+}
+/*<===========END HERO===========>*/
+
+
+/*<===========OUR ADVANTAGES===========>*/
+.subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+.description {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #757575;
+
+}
+/*<===========END OUR ADVANTAGES===========>*/
+
+
+/*<===========SERVICES===========>*/
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+/*<===========END SERVICES===========>*/
+
+/*============OUR TEAM==============*/
+
+.members-first-img {
+
+}
+.members-second-img {
+
+}
+.members-third-img {
+
+}
+.members-fourth-img {
+  
+}
+
+.member-list-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  /*text-align: center;*/
+
+  letter-spacing: 0.03em;
+  color: #212121; 
+}
+.member-list-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  /*text-align: center;*/
+
+  letter-spacing: 0.03em;
+  color: #757575;
+  
+}
+/*============END OUR TEAM==============*/
+
+/*============FOOTER==============*/
+
+/*============END FOOTER==============*/
+
+.footer-description {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.description-dark-theme {
+   background: #2F303A; 
+}
+.footer-list-mail,
+.footer-list-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  
+}
