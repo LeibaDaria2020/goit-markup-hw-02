@@ -47,8 +47,8 @@ color:var(--hover-color);
   color: var(--secondary-font);
 }
 
-.header-mail-link link,
-.header-tel-link link {
+.header-mail-link,
+.header-tel-link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -78,6 +78,7 @@ color: #2196F3;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+  text-transform: uppercase;
   color: #FFFFFF;
 }
 
