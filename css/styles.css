@@ -89,7 +89,7 @@ color: #2196F3;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 875;
+  line-height: 1,875;
   color: #ffffff;
 }
 
@@ -273,7 +273,8 @@ color: var(--secondary-color);
 color: #FFFFFF;
 }
 .portf-filter-list {
-color: var(--hover-color)};
+color: var(--hover-color);
+}
  
 
 /*==========END PORTFOLIO FILTERS==========*/
